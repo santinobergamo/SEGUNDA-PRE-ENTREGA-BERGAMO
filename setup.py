@@ -6,5 +6,5 @@ setup(
     description='Segunda Pre-Entrega',
     author='Santino Bergamo',
     author_email='santinobergamo@gmail.com',
-    packages=find_packages(),
+    packages=["Pagina_de_compras"],
 )
