@@ -1,0 +1,8 @@
+setup.py
+Paquete1/Modulo1.py
+Paquete1/Modulo2.py
+Paquete1/__init__.py
+pagina_de_compras.egg-info/PKG-INFO
+pagina_de_compras.egg-info/SOURCES.txt
+pagina_de_compras.egg-info/dependency_links.txt
+pagina_de_compras.egg-info/top_level.txt
