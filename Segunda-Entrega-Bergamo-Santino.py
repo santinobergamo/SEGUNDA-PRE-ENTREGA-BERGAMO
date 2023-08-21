@@ -1,5 +1,5 @@
-from Paquete1.Modulo1 import Cliente
-from Paquete1.Modulo2 import Comprar
+from Pagina_de_compras.Modulo1 import Cliente
+from Pagina_de_compras.Modulo2 import Comprar
 
 def main():
     clientes = []

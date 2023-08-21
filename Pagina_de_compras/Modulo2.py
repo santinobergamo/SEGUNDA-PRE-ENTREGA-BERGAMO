@@ -1,4 +1,4 @@
-from Paquete1.Modulo1 import *
+from Pagina_de_compras.Modulo1 import *
 class Comprar():
     def __init__(self,compra):
         self.compra = compra
