@@ -6,6 +6,7 @@ def main():
 
     while True:
         cliente = Cliente()
+        
         cliente.compra = Comprar(input("¿Qué llevó? ")).compra
         clientes.append(cliente)
 
