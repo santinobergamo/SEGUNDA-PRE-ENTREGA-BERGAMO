@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pagina_de_compras',
+    name='Segunda-Pre-entrega+Bergamo',
     version='1.0.0',
     description='Segunda Pre-Entrega',
     author='Santino Bergamo',

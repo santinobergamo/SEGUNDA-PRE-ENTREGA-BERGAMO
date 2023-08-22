@@ -1,0 +1,8 @@
+setup.py
+Pagina_de_compras/Modulo1.py
+Pagina_de_compras/Modulo2.py
+Pagina_de_compras/__init__.py
+Segunda_Pre_entrega_Bergamo.egg-info/PKG-INFO
+Segunda_Pre_entrega_Bergamo.egg-info/SOURCES.txt
+Segunda_Pre_entrega_Bergamo.egg-info/dependency_links.txt
+Segunda_Pre_entrega_Bergamo.egg-info/top_level.txt
