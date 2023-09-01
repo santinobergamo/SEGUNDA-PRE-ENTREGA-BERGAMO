@@ -1,29 +1,16 @@
 class Cliente():
-
-    def __init__(self):
-        self.nombre = input("Ingrese su nombre: ")
-        self.apellido = input("Ingrese su apellido: ")
-        self.documento = input("Ingrese su DNI: ")
-        self.direccion = input("Ingrese su direccion: ")
-        self.mail = self.ingresar_mail()
-        self.preferencias = input("Ingrese sus intereses: ")
+    def __init__(self, nombre, apellido, documento, direccion, mail, preferencias, tienda):
+        self.nombre = nombre
+        self.apellido = apellido
+        self.documento = documento
+        self.direccion = direccion
+        self.mail = mail
+        self.preferencias = preferencias
         self.compra = ""
-        self.tienda = input("En que tieda compro? ")
+        self.tienda = tienda
 
-    def ingresar_mail(self):
-        while True:
-            mail = input("Ingrese su mail: ")
-            if "@" in mail:
-                return mail
-            else:
-                print("ERROR!, el mail debe contener '@', intente de nuevo.")
-    
-
+    def ingresar_compra(self, compra):
+        self.compra = compra
 
     def __str__(self):
-        return f"Cliente: {self.nombre} {self.apellido}\nDNI: {self.documento}\nEmail: {self.mail}\nDireccion: {self.direccion}\nPreferencias: {self.preferencias}\nCompro en: {self.tienda}\nCompro: {self.compra}"
-
-
-
-
-
+        return f"El cliente {self.nombre} {self.apellido} ha comprado un {self.compra} en la tienda {self.tienda}."
