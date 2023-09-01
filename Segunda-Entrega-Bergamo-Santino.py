@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 from Paquete1.Modulo1 import Cliente
+=======
+from Pagina_de_compras.Modulo1 import Cliente
+from Pagina_de_compras.Modulo2 import Comprar
+>>>>>>> d4ecf09c4e637267345e1c238d93a6cbdbde3ff0
 
 def main():
     clientes = []
 
     while True:
+<<<<<<< HEAD
         nombre = input("Ingrese su nombre: ")
         apellido = input("Ingrese su apellido: ")
         documento = input("Ingrese su DNI: ")
@@ -17,6 +23,11 @@ def main():
         compra = input("¿Qué llevó? ")
         cliente.ingresar_compra(compra)
 
+=======
+        cliente = Cliente()
+        
+        cliente.compra = Comprar(input("¿Qué llevó? ")).compra
+>>>>>>> d4ecf09c4e637267345e1c238d93a6cbdbde3ff0
         clientes.append(cliente)
 
         continuar = input("¿Desea ingresar información para otro cliente? (s/n): ")
